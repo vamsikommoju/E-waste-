@@ -1,0 +1,183 @@
+
+ /* ========== HOME Page Css ========== */
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-1{
+    background-color: #D4D4D4;
+}
+
+.Bg{
+
+    background-image:url(/images/BG.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:overlay;
+}
+
+.hero-1{
+    min-height: 65vh;
+    /* min-width: 250; */
+}
+.hero-1 h1 {
+    margin-top: 30px;
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 63px;
+    color: #000000;
+}
+
+.hero-1 p {
+    font-weight: 700;
+    font-size: 20px;
+    color:black;
+}
+
+.hero-1 h5 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.background-2{
+    background-color:#F5F5F5;
+}
+
+        /* ========== About Us ========== */
+
+.about{
+    background-image: url(/images/recycle_banner_copy.webp);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    background-color: #D4D4D4;
+    
+}
+.about p{
+    font-weight: 800;
+}
+
+
+        /* ========== Contact Us ============*/
+.contact {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #45a049;
+}
+.bt1{
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+ }
+
+ .bt2{
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+ }
+ .line{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: #000000;
+}
+
+        /* ===========   Footer section ===========*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a{
+    margin-left: 10px;
+    text-decoration:none;
+    
+    
+}
+.social-icons i{
+    padding: 5px;
+}
+
+.social-icons img {
+    width: 30px; 
+}
+
+
+
+
+
+
+ /* Media Query */
+
+ @media (max-width: 992px) {         /*Home Page media query*/
+    .nav-header{
+        display: none !important;
+    }
+
+    .img2{
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact .B3{
+        width: 360px;
+        height: 60px;
+        border: 1px solid #9F9F9F;
+        border-radius: 10px;
+    }
+    .contact .MSG2{
+        width: 360px;
+        height: 90px;
+        border: 1px solid #9F9F9F;
+        border-radius: 10px;
+    }
+
+ }
+
